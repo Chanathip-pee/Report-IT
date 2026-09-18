@@ -169,17 +169,7 @@ async function handleReportSubmit(event) {
 
         return;
     }
-
-
-    if (!location) {
-
-        showError("กรุณากรอกสถานที่ที่พบปัญหา");
-        focusElement("location");
-
-        return;
-    }
-
-
+    
     /*
      * อ่านรูปภาพ
      */
