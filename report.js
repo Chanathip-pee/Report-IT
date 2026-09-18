@@ -152,15 +152,7 @@ async function handleReportSubmit(event) {
     /*
      * ตรวจสอบข้อมูลที่จำเป็น
      */
-    if (!subject) {
-
-        showError("กรุณากรอกหัวข้อปัญหา");
-        focusElement("subject");
-
-        return;
-    }
-
-
+    
     if (!category) {
 
         showError("กรุณาเลือกประเภทปัญหา");
