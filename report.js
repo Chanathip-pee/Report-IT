@@ -130,17 +130,12 @@ async function handleReportSubmit(event) {
     /*
      * อ่านค่าจาก Form
      */
-    const subject =
-        getValue("subject");
-
+    
     const category =
         getValue("category");
 
     const description =
         getValue("description");
-
-    const location =
-        getValue("location");
 
     const assetNumber =
         getValue("assetNumber");
@@ -270,8 +265,6 @@ async function handleReportSubmit(event) {
             currentUser.department ||
             "",
 
-        subject:
-            subject,
 
         category:
             category,
@@ -279,8 +272,6 @@ async function handleReportSubmit(event) {
         description:
             description,
 
-        location:
-            location,
 
         assetNumber:
             assetNumber,
